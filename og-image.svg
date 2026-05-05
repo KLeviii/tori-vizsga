@@ -57,4 +57,8 @@
   <!-- Tag line -->
   <text x="110" y="440" font-family="'Courier New', monospace"
         font-size="18" fill="rgba(201,168,76,0.6)">7 témakör · 21 lenyíló · 100+ kvízkérdés</text>
+
+  <!-- Motto -->
+  <text x="110" y="500" font-family="Georgia, serif"
+        font-size="24" font-style="italic" fill="rgba(255,255,255,0.35)">„Az erő legyen veletek!"</text>
 </svg>
