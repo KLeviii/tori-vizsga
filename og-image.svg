@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c1a10"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="redgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c0392b"/>
+      <stop offset="60%" stop-color="#8b1a12"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Red decorative block top-left -->
+  <rect x="0" y="0" width="520" height="630" fill="url(#redgrad)" opacity="0.45"/>
+
+  <!-- Gold border line left -->
+  <rect x="80" y="120" width="4" height="300" fill="#c9a84c"/>
+
+  <!-- Gold top border -->
+  <rect x="0" y="0" width="1200" height="4" fill="#c9a84c"/>
+  <!-- Gold bottom border -->
+  <rect x="0" y="626" width="1200" height="4" fill="#c9a84c"/>
+
+  <!-- Hungarian flag strip top -->
+  <rect x="0" y="4" width="400" height="10" fill="#ce2939"/>
+  <rect x="400" y="4" width="400" height="10" fill="#ffffff"/>
+  <rect x="800" y="4" width="400" height="10" fill="#477050"/>
+
+  <!-- Hungarian flag strip bottom -->
+  <rect x="0" y="616" width="400" height="10" fill="#ce2939"/>
+  <rect x="400" y="616" width="400" height="10" fill="#ffffff"/>
+  <rect x="800" y="616" width="400" height="10" fill="#477050"/>
+
+  <!-- Large decorative year (background) -->
+  <text x="720" y="480" font-family="Georgia, serif" font-size="280" font-weight="bold"
+        fill="#c0392b" opacity="0.12" letter-spacing="-10">2026</text>
+
+  <!-- Main title -->
+  <text x="110" y="260" font-family="Georgia, 'Times New Roman', serif"
+        font-size="58" font-weight="bold" fill="white" letter-spacing="1">Töri Gyorstalpaló</text>
+
+  <!-- Subtitle line -->
+  <text x="110" y="320" font-family="Georgia, serif"
+        font-size="30" fill="#c9a84c" letter-spacing="2">TÖRTÉNELEM ÉRETTSÉGI FELKÉSZÍTŐ</text>
+
+  <!-- Divider -->
+  <rect x="110" y="345" width="520" height="2" fill="rgba(201,168,76,0.4)"/>
+
+  <!-- Description -->
+  <text x="110" y="390" font-family="Arial, sans-serif"
+        font-size="22" fill="rgba(255,255,255,0.55)">Kvízek · Kulcsfogalmak · Tematikus összefoglalók</text>
+
+  <!-- Tag line -->
+  <text x="110" y="440" font-family="'Courier New', monospace"
+        font-size="18" fill="rgba(201,168,76,0.6)">7 témakör · 21 lenyíló · 100+ kvízkérdés</text>
+</svg>
